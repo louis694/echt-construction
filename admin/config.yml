@@ -1,0 +1,109 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: assets
+public_folder: /assets
+
+collections:
+  - name: settings
+    label: "Site Settings"
+    files:
+      - label: "Company & Contact Info"
+        name: settings
+        file: data/settings.json
+        format: json
+        fields:
+          - label: "Hero Section"
+            name: hero
+            widget: object
+            fields:
+              - { label: "Eyebrow Text", name: eyebrow, widget: string }
+              - { label: "Headline Line 1", name: line1, widget: string }
+              - { label: "Headline Line 2 (shown dimmed)", name: line2, widget: string }
+              - { label: "Headline Line 3", name: line3, widget: string }
+          - label: "Stats Bar"
+            name: stats
+            widget: list
+            fields:
+              - { label: "Number", name: number, widget: string }
+              - { label: "Label", name: label, widget: string }
+          - label: "Contact Info"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Phone", name: phone, widget: string }
+              - { label: "Email", name: email, widget: string }
+              - { label: "Address", name: address, widget: text }
+          - label: "Company Details"
+            name: company
+            widget: object
+            fields:
+              - { label: "Founded Year", name: founded, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "License Number", name: license, widget: string }
+          - label: "About Page"
+            name: about
+            widget: object
+            fields:
+              - { label: "Our Story Text", name: story, widget: text }
+
+  - name: projects
+    label: "Projects"
+    files:
+      - label: "All Projects"
+        name: projects
+        file: data/projects.json
+        format: json
+        fields:
+          - label: "Projects"
+            name: projects
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - label: "Type"
+                name: type
+                widget: select
+                options: [Commercial, Residential, Civil, Mixed-Use]
+              - { label: "Year", name: year, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Size", name: size, widget: string }
+              - label: "Status"
+                name: status
+                widget: select
+                options: [Complete, "In Progress"]
+
+  - name: services
+    label: "Services"
+    files:
+      - label: "All Services"
+        name: services
+        file: data/services.json
+        format: json
+        fields:
+          - label: "Services"
+            name: services
+            widget: list
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Description", name: description, widget: text }
+              - label: "Feature List"
+                name: items
+                widget: list
+                field: { label: "Item", name: item, widget: string }
+
+  - name: team
+    label: "Team"
+    files:
+      - label: "Team Members"
+        name: team
+        file: data/team.json
+        format: json
+        fields:
+          - label: "Team Members"
+            name: team
+            widget: list
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Role / Title", name: role, widget: string }
+              - { label: "Bio", name: bio, widget: text }
