@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "title": "Harbor District Redevelopment",
+      "type": "Commercial",
+      "year": "2024",
+      "location": "Seattle, WA",
+      "size": "42,000 sq ft",
+      "status": "Complete"
+    },
+    {
+      "title": "Mercer Island Estate",
+      "type": "Residential",
+      "year": "2024",
+      "location": "Mercer Island, WA",
+      "size": "6,800 sq ft",
+      "status": "Complete"
+    },
+    {
+      "title": "Eastside Tech Campus",
+      "type": "Commercial",
+      "year": "2023",
+      "location": "Bellevue, WA",
+      "size": "120,000 sq ft",
+      "status": "Complete"
+    },
+    {
+      "title": "South Lake Union Mixed-Use",
+      "type": "Mixed-Use",
+      "year": "2023",
+      "location": "Seattle, WA",
+      "size": "85,000 sq ft",
+      "status": "Complete"
+    },
+    {
+      "title": "Cascade Trail Civic Center",
+      "type": "Civil",
+      "year": "2022",
+      "location": "Issaquah, WA",
+      "size": "18,500 sq ft",
+      "status": "Complete"
+    },
+    {
+      "title": "Rainier View Condominiums",
+      "type": "Residential",
+      "year": "2025",
+      "location": "Seattle, WA",
+      "size": "95,000 sq ft",
+      "status": "In Progress"
+    }
+  ]
+}
