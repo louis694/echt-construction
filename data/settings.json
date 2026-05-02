@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "eyebrow": "Est. 2004 — Pacific Northwest — Licensed & Bonded",
+    "line1": "We Build",
+    "line2": "Structures",
+    "line3": "That Last."
+  },
+  "stats": [
+    { "number": "20+", "label": "Years in the field" },
+    { "number": "350+", "label": "Projects delivered" },
+    { "number": "$2B+", "label": "Construction value" },
+    { "number": "98%", "label": "On-time completion" }
+  ],
+  "contact": {
+    "phone": "(206) 555-0192",
+    "email": "build@echtconstruction.com",
+    "address": "1420 5th Ave, Suite 1200\nSeattle, WA 98101"
+  },
+  "company": {
+    "founded": "2004",
+    "location": "Seattle, WA",
+    "license": "CCB #204817"
+  },
+  "about": {
+    "story": "Founded in 2004, Echt Construction began with a single crew and a straightforward belief: that great construction is the result of honest work, disciplined process, and an uncompromising eye for detail.\n\nTwenty years later, we have delivered over 350 projects across the Pacific Northwest — from custom residential estates to major commercial developments — without once sacrificing quality for speed or budget."
+  }
+}
