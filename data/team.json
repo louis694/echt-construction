@@ -1,0 +1,19 @@
+{
+  "team": [
+    {
+      "name": "Marcus Echt",
+      "role": "Founder & CEO",
+      "bio": "23 years in construction management. Built the company from a single crew to one of the Pacific Northwest's most trusted general contractors."
+    },
+    {
+      "name": "Dana Kroll",
+      "role": "VP of Operations",
+      "bio": "Specialist in large-scale commercial builds. Responsible for project delivery, subcontractor relationships, and field operations across all active sites."
+    },
+    {
+      "name": "Theo Park",
+      "role": "Chief Estimator",
+      "bio": "Precision cost management since 2008. Theo's estimates are the foundation of our on-time, on-budget record across over 350 projects."
+    }
+  ]
+}
