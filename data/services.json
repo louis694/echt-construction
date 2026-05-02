@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "title": "Commercial Construction",
+      "description": "Ground-up commercial builds from tenant improvements to full-scale developments. We manage structure, envelope, and finish across office, retail, industrial, and healthcare sectors.",
+      "items": ["Office Buildings", "Retail & Hospitality", "Industrial Facilities", "Healthcare"]
+    },
+    {
+      "title": "Residential Builds",
+      "description": "Custom homes built to precise specification. Single-family estates, multi-family buildings, and everything in between — delivered with the same discipline as our largest commercial projects.",
+      "items": ["Custom Homes", "Multi-Family", "Accessory Dwelling Units", "Luxury Renovation"]
+    },
+    {
+      "title": "Civil Infrastructure",
+      "description": "Public and private civil work: roads, utilities, earthwork, and civic facilities constructed to last generations. We operate at every scale, from subdivision grading to municipal facilities.",
+      "items": ["Roadways & Grading", "Utilities & Drainage", "Civic Facilities", "Landscaping"]
+    },
+    {
+      "title": "Renovation & Retrofit",
+      "description": "Structural upgrades, seismic retrofits, and comprehensive renovations that bring existing buildings to current standard. We preserve what works and replace what doesn't — with zero cutting corners.",
+      "items": ["Seismic Retrofits", "Historic Renovation", "Structural Upgrades", "Systems Replacement"]
+    }
+  ]
+}
