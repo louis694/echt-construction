@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Echt Construction</title>
+  <meta name="description" content="Start your project with Echt Construction. Contact us for a no-obligation consultation — we'll respond within one business day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="contact">
+
+  <!-- NAV -->
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" aria-label="Echt Construction home">
+      <img src="assets/logo-black-bg.png" alt="Echt Construction" class="nav__logo">
+    </a>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="projects.html" class="nav__link" data-page="projects">Projects</a></li>
+      <li><a href="services.html" class="nav__link" data-page="services">Services</a></li>
+      <li><a href="about.html"    class="nav__link" data-page="about">About</a></li>
+      <li><a href="contact.html"  class="nav__link" data-page="contact">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav__cta">Get a Quote</a>
+    <button class="nav__burger" id="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- FORM SUCCESS STATE (hidden until submit) -->
+  <div class="form-success" id="form-success" role="alert" aria-live="polite">
+    <div class="form-success__headline">Message<br>Received.</div>
+    <span class="label" style="color:var(--g600)">We&rsquo;ll be in touch within 1 business day.</span>
+  </div>
+
+  <!-- CONTACT LAYOUT -->
+  <div class="contact-layout" id="contact-form-wrap" style="padding-top:64px;">
+
+    <!-- INFO PANEL -->
+    <div class="contact-info">
+      <div>
+        <span class="label" style="display:block;margin-bottom:16px;">Get in Touch</span>
+        <h1 class="contact-info__headline">Start Your<br>Project</h1>
+        <p class="contact-info__desc">
+          Tell us about your project. We&rsquo;ll review the scope and schedule a no-obligation consultation within one business day.
+        </p>
+      </div>
+      <div class="contact-details">
+        <div>
+          <span class="label contact-detail__label">Phone</span>
+          <div class="contact-detail__value">(206) 555-0192</div>
+        </div>
+        <div>
+          <span class="label contact-detail__label">Email</span>
+          <div class="contact-detail__value">build@echtconstruction.com</div>
+        </div>
+        <div>
+          <span class="label contact-detail__label">Office</span>
+          <div class="contact-detail__value">1420 5th Ave, Suite 1200
+Seattle, WA 98101</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM PANEL -->
+    <!--
+      To enable real form submissions on Netlify, add:
+        data-netlify="true" name="contact"
+      to the <form> element below. Netlify will handle delivery automatically.
+    -->
+    <form class="contact-form-wrap" id="contact-form" action="#" method="post" novalidate>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label class="form-label" for="name">Full Name</label>
+          <input class="form-input" id="name" name="name" type="text" placeholder="John Doe" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label class="form-label" for="project-type">Project Type</label>
+          <select class="form-input" id="project-type" name="project_type">
+            <option value="">Select type&hellip;</option>
+            <option>Commercial</option>
+            <option>Residential</option>
+            <option>Civil</option>
+            <option>Renovation</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="budget">Budget Range</label>
+          <select class="form-input" id="budget" name="budget">
+            <option value="">Select range&hellip;</option>
+            <option>Under $500k</option>
+            <option>$500k &ndash; $1M</option>
+            <option>$1M &ndash; $5M</option>
+            <option>$5M+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label class="form-label" for="message">Project Description</label>
+        <textarea class="form-input" id="message" name="message"
+          placeholder="Tell us about your project — scope, timeline, location, and any other details."></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">Submit Inquiry</button>
+
+    </form>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="index.html"><img src="assets/logo-black-bg.png" alt="Echt Construction" class="footer__logo"></a>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="projects.html" class="footer__link">Projects</a>
+        <a href="services.html" class="footer__link">Services</a>
+        <a href="about.html"    class="footer__link">About</a>
+        <a href="contact.html"  class="footer__link">Contact</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span class="label" style="color:var(--g700)">&copy; 2025 Echt Construction. All rights reserved.</span>
+      <span class="label" style="color:var(--g700)">Seattle, WA &middot; Licensed &amp; Bonded &middot; CCB #204817</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
